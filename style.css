@@ -1,0 +1,78 @@
+/* Layout de conteúdo */
+body {
+    max-width: 800px; /* Defina o valor desejado para a largura máxima do corpo */
+    margin: 0 auto;   /* Isso centralizará o conteúdo na página */
+}
+
+/* Estilo para o elemento h1 */
+h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+/* Estilo para o elemento #status */
+#status {
+    font-size: 18px;
+    color: #0078d4;
+}
+
+/* Estilo para a lista de mensagens */
+ul#messages {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo para as mensagens recebidas */
+ul#messages li.received {
+    background-color: #f0f0f0;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Estilo para as mensagens enviadas */
+ul#messages li.sent {
+    background-color: #0078d4;
+    color: #fff;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Estilo para o formulário */
+#message-form {
+    text-align: center;
+}
+
+/* Estilo para o campo de mensagem */
+#message {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilo para o botão "Enviar mensagem" */
+#message-form button[type="submit"] {
+    background-color: #269940;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Estilo para o botão "Finalizar conexão" */
+#close {
+    background-color: #d62c2c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
